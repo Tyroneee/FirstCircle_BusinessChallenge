@@ -45,11 +45,9 @@ class checkOut{ // Declaration of checkout class
         }
         if (this.mbpCounter >= 1 && this.mbpCounter == this.vgaCounter ) { // we will bundle in a free VGA adapter free of charge with every MacBook Pro sold
             this.productsArray[3].Price = 0;
-            //console.log("With free VGA Adapter");
         }
         else if (this.mbpCounter < this.vgaCounter && this.mbpCounter != 0) { // conditional if there are more vgas than mbps (for the free vga WITH EVERY macbook pro)
             this.vgaCounter = this.vgaCounter - this.mbpCounter;
-            //console.log("With free VGA Adapter");
         }
         this.ipdSum = this.ipdCounter * this.productsArray[0].Price; // total price for ipd
         this.mbpSum = this.mbpCounter * this.productsArray[1].Price; // total price for mbp
