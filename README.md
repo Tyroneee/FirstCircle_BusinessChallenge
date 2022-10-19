@@ -7,7 +7,7 @@
 ### You can open the file in an IDE or Code Editor such as Microsoft Visual Studio Code
 
 ### Open a terminal in the directory of the file and type "node index.js" 
-#### Make sure that the filename is index.js and no other files in the same directory has the same filename
+####### Make sure that the filename is index.js and no other files in the same directory has the same filename
 
 ### Expect to see these three test cases for the problem:
     SKUs Scanned: atv, atv, atv, vga Total expected: $249.00
